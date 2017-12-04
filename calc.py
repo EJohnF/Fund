@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 from datetime import date
 from dateutil.relativedelta import relativedelta
 
-initialDonation = 20000
+initialDonation = 10000
 together = initialDonation * 2
 growthEachYear = 0.1
-interestRate = 0.07
+interestRate = 0.06
 initialDate = date(2018, 1, 1)
 monthsToPay = 12*12
 
